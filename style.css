@@ -11,7 +11,7 @@
 
 .flex-box {
   justify-content: center;
-  padding: 30px;
+  padding: 20px;
   /* display: flex; */
   /* width: 1000px; */
   /* margin: 20px auto; */
@@ -19,14 +19,21 @@
 /* .left {
   width: 150%;
 } */
+
 .big-img {
+  border: 2px solid rgb(19, 16, 16);
+  border-radius: 20px;
   width: 300px;
-  padding: 10px;
+  padding: 20px 10px 10px;
   background-color: #ff5e00;
-  box-shadow: #000;
+  align-items: center;
+  margin: auto;
+  /* display: block; */
 }
 .big-img img {
   width: inherit;
+  border: 5px solid rgb(30, 30, 30);
+  border-radius: 5px;
 }
 .images {
   display: flex;
